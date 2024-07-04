@@ -1,12 +1,12 @@
 .print{
   /* position: absolute; */
-  display: none;
+  /* display: none; */
 }
 
 .bill{
   background-color: #fff;
   width: 795px;
-  min-height: 1040px;
+  min-height: 1120px;
   position: relative;
   display: flex;
   align-items: center;
@@ -174,8 +174,10 @@ tr{
 .email{}
 .mob{}
 .bottomRight{
-  align-items: end;
+  align-items: center;
   display: flex;
+  flex-direction: column;
+  justify-content: end;
 }
 .seal{
   color: #314E85;
@@ -202,4 +204,9 @@ tr{
   text-align: center;
   color: #454545;
   font-weight: 500;
+}
+
+img{
+  height: 80px;
+  width: 80px;
 }

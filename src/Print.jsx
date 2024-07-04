@@ -3,7 +3,7 @@ import './print.css'
 
 const Print = forwardRef(({formFields,info,date},ref) => {
 
-    const dummy = [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16]
+    const dummy = [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18]
 
     // console.log(dummy.splice(formFields.length));
     let total = 0;
@@ -104,6 +104,7 @@ const Print = forwardRef(({formFields,info,date},ref) => {
                     <span className="mob">Mob No.: 8370085891 <br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 9424603651</span>
                 </div>
                 <div className="bottomRight">
+                    <img src="/images/seal.jpg" alt=""  />
                     <span className="seal">JAI INFOTECH</span>
                 </div>
             </div>
