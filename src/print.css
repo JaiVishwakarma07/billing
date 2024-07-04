@@ -1,12 +1,14 @@
 .print{
   /* position: absolute; */
   display: none;
+  margin: 0;
+  padding: 0;
 }
 
 .bill{
   background-color: #fff;
-  width: 795px;
-  min-height: 1120px;
+  width: 210mm;
+  min-height: 297mm;
   position: relative;
   display: flex;
   align-items: center;
