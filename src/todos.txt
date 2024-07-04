@@ -1,0 +1,7 @@
+todos
+
+1-auto calculate the amount
+2-auto calculate the cgst and sgst
+3-auto calculate total
+4-auto calculate grand total
+5-CSS  

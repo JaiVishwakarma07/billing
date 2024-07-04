@@ -1,0 +1,93 @@
+.app{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0px 40px 40px 40px;
+    gap: 10px;
+}
+
+.formSection{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.formContainer{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.top{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.formWrapper{
+    display: flex;
+    /* flex-direction: column; */
+    gap: 10px;
+}
+
+.formHeading{
+    display: flex;
+    justify-content: center;
+    border-bottom: 1px solid;
+    color: #314E85;
+}
+
+.field1{
+    width: 10%;
+}
+
+.field1div{
+    display: flex;
+    gap: 5px;
+}
+
+.add{
+    padding: 10px;
+    width: fit-content;
+    border: none;
+    color: white;
+    background-color: green;
+    border-radius: 5px;
+}
+
+.remove{
+    padding: 15px;
+    border: none;
+    color: white;
+    background-color: #DC3545;
+    border-radius: 5px;
+}
+
+.printButton{
+    width: fit-content;
+    padding: 10px;
+    border: none;
+    color: white;
+    background-color: #314E85;
+    border-radius: 5px;
+}
+
+.bottomMain{
+    display: flex;
+    gap: 10px;
+}
+
+button{
+    cursor: pointer;
+}
+
+.headingsMains{
+    color: #454545;
+}
+
+
+@media screen and (max-width: 600px) {
+    .formWrapper {
+      flex-direction: column;
+    }
+    .field1{
+        width: 30%;
+    }
+  }
